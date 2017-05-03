@@ -14,6 +14,7 @@ ActionMailer::Base.smtp_settings = {
     #:password => ENV['GMAIL_PASSWORD'],
     #:password => ENV['SMTP_RELAY_PASSWORD'],
     :password => ENV['SENDGRID_PASSWORD'],
-    :domain => 'heroku.com',
+    :domain => 'yahoo.com',
+    #:domain => 'heroku.com',
     :enable_starttls_auto => true
 }
