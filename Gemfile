@@ -18,6 +18,12 @@ gem 'figaro'
 # For payment use stripe
 gem 'stripe'
 # Use Puma as the app server
+#To upload image
+gem 'carrierwave'
+# to resize pics
+gem 'mini_magick'
+#To work with images in prodution
+gem 'fog'
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
